@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Local data
+data/source/*
+data/sample/*
+
+# Spark
+.sparkStaging/
+metastore_db/
+spark-warehouse/
+
+# OS
+.DS_Store
+Thumbs.db
