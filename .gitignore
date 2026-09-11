@@ -19,6 +19,7 @@ logs/
 # Local data
 data/source/*
 data/sample/*
+data/simulated/*
 
 # Spark
 .sparkStaging/
