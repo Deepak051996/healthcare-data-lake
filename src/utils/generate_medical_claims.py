@@ -1,6 +1,6 @@
 import csv
 import random
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 from pathlib import Path
 
 
@@ -26,7 +26,7 @@ def generate_medical_claims():
     ]
 
     start_date = date(2025, 1, 1)
-    end_date = date(2026, 12, 31)
+    end_date = datetime.today().date()
 
     # Load provider -> hospital mapping
     provider_hospital = {}
