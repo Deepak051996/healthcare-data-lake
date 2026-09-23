@@ -21,6 +21,10 @@ data/source/*
 data/sample/*
 data/simulated/*
 
+data/bronze/*
+data/silver/*
+data/gold/*
+
 # Spark
 .sparkStaging/
 metastore_db/
@@ -29,3 +33,4 @@ spark-warehouse/
 # OS
 .DS_Store
 Thumbs.db
+
